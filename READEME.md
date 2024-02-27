@@ -1,0 +1,1 @@
+Hello! This project is a career simulation based on everything that was asked of us. Hope you enjoy!

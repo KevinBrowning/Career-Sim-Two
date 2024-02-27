@@ -1,0 +1,254 @@
+#homepage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.images > img{
+    margin: 10pt;
+    border: solid black;
+    border-width: 5pt;
+    border-radius: 20pt;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border: solid slategray;
+    max-height: 80px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid slategray;
+}
+#footer > p{
+    color: antiquewhite;
+    margin: auto 0;
+    padding-right: 20pt;
+    font-size: 3.2vw;
+    font-style: oblique;
+}
+a > img{
+    height: 60px;
+    padding: 4pt;
+}
+nav > p{
+    color: antiquewhite;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20pt;
+    margin-right: auto;
+    font-size: 3.2vw;
+    font-style: oblique;
+}
+button{
+    margin: 10pt 20pt 10pt 5pt;
+    background-image: url(./dark\ grey\ stone\ texture\ \(1\).png);
+    padding: 3pt 10pt;
+    border-radius: 20pt;
+    border-color: antiquewhite;
+    transition-duration: .3s;
+}
+button:hover{
+    scale: 1.2;
+    transition-duration: .3s;
+}
+button > a{
+    font-size: x-large;
+    color: white;
+}
+main{
+    margin-top: 80pt;
+    margin-bottom: 80pt;
+}
+#homepage{
+    width: fit-content;
+    background-image: url(./light\ marbly\ texture.png);
+    margin-top: 10pt;
+    border: solid black;
+    padding: 10pt;
+    border-width: 5pt;
+    border-radius: 20pt;
+    max-width: 715pt;
+}
+#aboutpage{
+    width: fit-content;
+    margin: 0 auto;
+    border: solid black;
+    padding: 0pt 80pt;
+    border-width: 5pt;
+    border-radius: 20pt;
+    max-width: 715pt;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    color: white;
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 1500;
+    transition-duration: .5s;
+}
+#aboutpage:hover{
+    border: solid slategray;
+    padding: 0pt 80pt;
+    border-width: 5pt;
+    border-radius: 20pt;
+    background-color: black;
+    transition-duration: .5s;
+}
+#aboutpage > h1{
+    font-size: 40pt;
+    font-style: italic;
+    font-weight: 1500;
+    width: fit-content;
+    margin: auto;
+    padding: 10pt;
+    border-radius: 20pt;
+    color: white;
+}
+#hobbies{
+    width: fit-content;
+    background-image: url(./light\ marbly\ texture.png);
+    border: solid black;
+    padding: 10pt;
+    border-width: 5pt;
+    border-radius: 20pt;
+    text-align: center;
+    margin: 10pt auto;
+}
+#hobbies > h2{
+    font-size: 40pt;
+    font-style: italic;
+    font-weight: 1500;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    border: solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 10pt;
+    border-radius: 20pt;
+    color: white;
+}
+#hobbies > p{
+    font-size: 20pt;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#homepage > h1{
+    font-size: 40pt;
+    font-style: italic;
+    font-weight: 1500;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    border: solid black;
+    border-width: 5pt;
+    width: fit-content;
+    margin: auto;
+    padding: 10pt;
+    border-radius: 20pt;
+    color: white;
+    transition-duration: .5s;
+}
+#homepage > h1:hover{
+    border: solid slategray;
+    transition-duration: .5s;
+    border-width: 5pt;
+}
+#homepage > p{
+    font-size: 20pt;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(./light\ grey\ background\ texture.png);
+}
+.deadlink{
+    pointer-events: none;
+    color: slategray;
+}
+.deadbutton{
+    background-image: none;
+    background-color: rgb(243, 243, 243);
+    border-color: slategray;
+}
+#aboutmeimages > img{
+    height: 580px;
+    margin: 5pt 10pt;
+    border: solid black;
+    border-width: 5pt;
+    border-radius: 20pt;
+}
+#aboutmeimages{
+    display: flex;
+    justify-content: center;
+}
+.projectodds{
+    background-image: url(./light\ marbly\ texture.png);
+    border: solid black;
+    margin-top: 10pt;
+    max-width: 80%;
+    margin-left: 60pt;
+    border-radius: 20pt;
+}
+.projectodds > h2{
+    font-size: 25pt;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    color: antiquewhite;
+    width: fit-content;
+    padding: 10pt;
+    border: solid black;
+    border-radius: 20pt;
+    margin-left: 10pt;
+}
+.projectodds > p{
+    font-size: 15pt;
+    width: fit-content;
+    font-weight: bolder;
+    padding: 5pt;
+    margin: 0 5pt;
+}
+.projectevens{
+    background-image: url(./light\ marbly\ texture.png);
+    border: solid black;
+    margin-top: 10pt;
+    margin-left: auto;
+    margin-right: 60pt;
+    max-width: 80%;
+    border-radius: 20pt;
+}
+.projectevens > h2{
+    font-size: 25pt;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    color: antiquewhite;
+    width: fit-content;
+    padding: 10pt;
+    border: solid black;
+    border-radius: 20pt;
+    margin-left: auto;
+    margin-right: 20pt;
+}
+.projectevens > p{
+    font-size: 15pt;
+    width: fit-content;
+    font-weight: bolder;
+
+    padding: 5pt;
+    margin: 0 5pt;
+}
+#projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-content: centerkkl;
+}
