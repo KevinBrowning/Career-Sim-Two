@@ -8,13 +8,15 @@
 .images{
     display: flex;
     justify-content: center;
-    height: 500px;
+    flex-wrap: wrap;
 }
 .images > img{
     margin: 10pt;
     border: solid black;
     border-width: 5pt;
     border-radius: 20pt;
+    height: 50vh;
+    width: auto;
 }
 nav{
     display: flex;
@@ -42,6 +44,9 @@ nav{
     font-size: 3.2vw;
     font-style: oblique;
 }
+#footer > a > img{
+    box-shadow: none;
+}
 a > img{
     height: 60px;
     padding: 4pt;
@@ -56,20 +61,27 @@ nav > p{
     font-style: oblique;
 }
 button{
-    margin: 10pt 20pt 10pt 5pt;
+    margin: 5pt auto 5pt auto;
     background-image: url(./dark\ grey\ stone\ texture\ \(1\).png);
     padding: 3pt 10pt;
     border-radius: 20pt;
     border-color: antiquewhite;
     transition-duration: .3s;
+    width: fit-content;
+    height: fit-content;
 }
 button:hover{
-    scale: 1.2;
+    scale: 105%;
     transition-duration: .3s;
 }
 button > a{
-    font-size: x-large;
+    font-size: 3vw;
     color: white;
+    text-decoration: none;
+    padding: 5pt;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 main{
     margin-top: 80pt;
@@ -170,7 +182,8 @@ main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url(./light\ grey\ background\ texture.png);
+/*     background-image: url(./light\ grey\ background\ texture.png); */
+    background-image: linear-gradient(rgb(255, 255, 255) , rgb(110, 110, 110));
 }
 .deadlink{
     pointer-events: none;
@@ -182,7 +195,8 @@ body{
     border-color: slategray;
 }
 #aboutmeimages > img{
-    height: 580px;
+    height: 50vh;
+    width: auto;
     margin: 5pt 10pt;
     border: solid black;
     border-width: 5pt;
@@ -190,6 +204,7 @@ body{
 }
 #aboutmeimages{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .projectodds{
@@ -251,4 +266,51 @@ body{
     flex-direction: column;
     margin: auto;
     align-content: centerkkl;
+}
+#contactform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+label{
+    background-image: url(./dark\ grey\ stone\ texture\ \(1\).png);
+    width: fit-content;
+    margin: 4pt auto auto auto;
+    padding: 4pt;
+    border-radius: 10pt;
+    border: solid black;
+    color: white;
+    font-family: sans-serif;
+}
+#submit{
+    width: fit-content;
+    margin: auto;
+    padding: 10pt;
+    font-size: larger;
+    font-style: italic;
+    font-family: sans-serif;
+    background-image: url(./dark\ black\ stoney\ texture.png);
+    color: antiquewhite;
+    border: solid grey;
+}
+#contactform > button{
+    background: none;
+    border: none;
+    width: fit-content;
+    margin: auto;
+}
+img{
+    box-shadow: 3pt 3pt 3pt 3pt;
+    transition: ease-in-out;
+    transition: .2s;
+}
+img:hover{
+    box-shadow: 7pt 7pt 7pt 7pt;
+    transition-duration: .2s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        width: 95%;
+    } 
 }
